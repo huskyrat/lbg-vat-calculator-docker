@@ -1,4 +1,4 @@
-sudo pipeline{
+pipeline{
  environment {
  registry = "edwineay/vatcal"
         registryCredentials = "dockerhub_id"
